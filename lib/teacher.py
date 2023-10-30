@@ -18,10 +18,9 @@ class Teacher(User):
             "pipenv install pipenv shell",
             "pytest -x flag to fail fast",
         ]
+        
     def teach(self):
         return self.knowledge[random.randint(0, len(self.knowledge) -1)]
     
-
-    # def teach(self, knowledge):
         
         
